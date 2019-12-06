@@ -1,26 +1,25 @@
 {
-  "name": "docker-multibuild-example",
+  "name": "docker-multi-stage-app",
   "version": "1.0.0",
-  "description": "demonstration for docker multistage builds",
+  "description": "Build an app with Docker multi-stage builds",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "sh test/test.sh",
     "start": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bbachi/docker-multibuild-example.git"
+    "url": "git+https://github.com/stackriot-labs/docker-multi-stage-app.git"
   },
   "keywords": [
     "Angular",
     "Docker"
   ],
-  "author": "Bhargav Bachina",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/bbachi/docker-multibuild-example/issues"
+    "url": "https://github.com/stackriot-labs/docker-multi-stage-app/issues"
   },
-  "homepage": "https://github.com/bbachi/docker-multibuild-example#readme",
+  "homepage": "https://github.com/stackriot-labs/docker-multi-stage-app#readme",
   "dependencies": {
     "express": "^4.17.1"
   }
